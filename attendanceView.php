@@ -239,7 +239,7 @@
 
                             <th>#6729</th>
 
-                            <td>Maria Bower</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Maria Bower</td>
                             <td><Button type="button" class="btn btn-danger">8 Days</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -254,7 +254,7 @@
 
                             <th>#6729</th>
 
-                            <td>Maria Bower</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Maria Bower</td>
                             <td><Button type="button" class="btn btn-danger">1 Days</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -269,7 +269,7 @@
 
                             <th>#6629</th>
 
-                            <td>Harry Bower</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Harry Bower</td>
                             <td><Button type="button" class="btn btn-success">Never</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -284,7 +284,7 @@
 
                             <th>#6749</th>
 
-                            <td>Maria Bower</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Maria Bower</td>
                             <td><Button type="button" class="btn btn-danger">4 Days</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -299,7 +299,7 @@
 
                             <th>#6730</th>
 
-                            <td> Bower</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Bower</td>
                             <td><Button type="button" class="btn btn-dark">2 Days</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -314,7 +314,7 @@
 
                             <th>#6729</th>
 
-                            <td>Maria </td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Maria </td>
                             <td><Button type="button" class="btn btn-danger">2 Days</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -329,7 +329,7 @@
 
                             <th>#6729</th>
 
-                            <td>Abc </td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Abc </td>
                             <td><Button type="button" class="btn btn-warning">8 Days</Button></td>
                             <td>1</td>
                             <td>4</td>

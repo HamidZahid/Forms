@@ -125,7 +125,7 @@
                       
                         <tr href="javascript:void(0)" onclick="change_color(this)">
                             <th scope="row">1</th>
-                            <td>Mujahid</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</td>
                             <td>Bike Services</td>
                             <td>Abc Service Centre</td>
                             <td><input type="date" class="form-control"></td>
@@ -145,7 +145,7 @@
                         </tr>
                         <tr href="javascript:void(0)" onclick="change_color(this)">
                             <th scope="row">2</th>
-                            <td>Mujahid</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</td>
                             <td>Bike Services</td>
                             <td>Abc Service Centre</td>
                             <td><input type="date" class="form-control"></td>
@@ -165,7 +165,7 @@
                         </tr>
                         <tr href="javascript:void(0)" onclick="change_color(this)">
                             <th scope="row">3</th>
-                            <td>Mujahid</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</td>
                             <td>Pens </td>
                             <td>Abc Service Centre</td>
                             <td><input type="date" class="form-control"></td>
@@ -185,7 +185,7 @@
                         </tr>
                         <tr href="javascript:void(0)" onclick="change_color(this)">
                             <th scope="row">4</th>
-                            <td>Mujahid</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</td>
                             <td>Ipad</td>
                             <td>Book  </td>
                             <td><input type="date" class="form-control"></td>
@@ -205,7 +205,7 @@
                         </tr>
                         <tr href="javascript:void(0)" onclick="change_color(this)">
                             <th scope="row">5</th>
-                            <td>Mujahid</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</td>
                             <td>Bike Services</td>
                             <td>Amazon  </td>
                             <td><input type="date" class="form-control"></td>
@@ -225,7 +225,7 @@
                         </tr>
                         <tr href="javascript:void(0)" onclick="change_color(this)">
                             <th scope="row">6</th>
-                            <td>Mujahid</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</td>
                             <td>Bike Services</td>
                             <td>Data Connection  </td>
                             <td><input type="date" class="form-control"></td>
@@ -245,7 +245,7 @@
                         </tr>
                         <tr href="javascript:void(0)" onclick="change_color(this)">
                             <th scope="row">7</th>
-                            <td>Mujahid</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</td>
                             <td>Bike Services</td>
                             <td>Mobile Recharge  </td>
                             <td><input type="date" class="form-control"></td>
@@ -266,7 +266,7 @@
         
                         <tr href="javascript:void(0)" onclick="change_color(this)">
                             <th scope="row">8</th>
-                            <td>Aliyan</td>
+                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Aliyan</td>
                             <td>IT</td>
                             <td>Bike Fuel</td>
                             <td><input type="date" class="form-control"></td>
