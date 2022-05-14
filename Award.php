@@ -141,7 +141,7 @@
 
                             <th>01</th>
                             <th>#333</th>
-                            <th><b>Hamid Zahid</b> <br> Hamid@gmail.com</th>
+                            <th><b><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Hamid Zahid</b> <br> Hamid@gmail.com</th>
                             <th>Developer </th>
                             <th>
                                 <div class="progress">
@@ -160,7 +160,7 @@
 
                             <th>01</th>
                             <th>#333</th>
-                            <th><b>Hamid Zahid</b> <br> Hamid@gmail.com</th>
+                            <th><b><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Hamid Zahid</b> <br> Hamid@gmail.com</th>
                             <th>Developer </th>
                             <th>
                                 <div class="progress">
@@ -179,7 +179,7 @@
 
                             <th>01</th>
                             <th>#333</th>
-                            <th><b>Hamid Zahid</b> <br> Hamid@gmail.com</th>
+                            <th><b><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Hamid Zahid</b> <br> Hamid@gmail.com</th>
                             <th>Developer </th>
                             <th>
                                 <div class="progress">
@@ -198,7 +198,7 @@
 
                             <th>01</th>
                             <th>#333</th>
-                            <th><b>Hamid Zahid</b> <br> Hamid@gmail.com</th>
+                            <th><b><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Hamid Zahid</b> <br> Hamid@gmail.com</th>
                             <th>Developer </th>
                             <th>
                                 <div class="progress">
@@ -217,7 +217,7 @@
 
                             <th>01</th>
                             <th>#333</th>
-                            <th><b>Hamid Zahid</b> <br> Hamid@gmail.com</th>
+                            <th><b><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Hamid Zahid</b> <br> Hamid@gmail.com</th>
                             <th>Developer </th>
                             <th>
                                 <div class="progress">
