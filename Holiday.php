@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./bootstrap-4.6.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./bootstrap-4.6.1-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cal.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -286,17 +288,50 @@
                               
                             </tbody>
                         </table>
-                        <div class="col-md-4">
-                            
-                            
-                        </div>
+                       
+                    </div>
+                    <div class="col-md-4 ">
+                        
+                        <section >
+                            <div class="box" >
+                                <div class="container" >
+                                    <div id="calendar" >
+                    
+                                    </div>
+                    
+                                </div>
+                            </div>
+                    
+                        </section>
+                        
                     </div>
                     </div>
                     </div>
                 </section>
             </div>
            
-       
+            <script src="calendar.js"></script>
+            <script>
+                dycalendar.draw({
+                    target:'#calendar',
+                    type:'month',
+                    dayformat:'full',
+                    monthformat:'full',
+                    highlighttargetdate:true,
+                    prevnextbutton:'show'
+        
+                })
+            </script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+          ga('create', 'UA-46156385-1', 'cssscript.com');
+          ga('send', 'pageview');
+        
+        </script> 
 
     <script>
         $(document).ready(function () {
