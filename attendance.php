@@ -258,7 +258,7 @@
 
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th>Mujahid</th>
+                                    <th> <img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -330,7 +330,7 @@
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th>Mujahid</th>
+                                    <th>  <img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -402,7 +402,7 @@
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th>Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -474,7 +474,7 @@
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th>Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -546,7 +546,7 @@
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th>Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -618,7 +618,7 @@
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th>Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -690,7 +690,7 @@
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th>Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -762,7 +762,7 @@
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th>Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -834,7 +834,7 @@
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th>Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -906,7 +906,7 @@
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th>Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
