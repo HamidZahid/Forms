@@ -12,10 +12,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
-
-    <link rel="stylesheet" href="./style.css">
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Paid Leaves</title>
 </head>
@@ -107,9 +103,6 @@
                 </div>
 
         </section>
-
-
-
         <blockquote class="blockquote text-center border border-1 border-grey ">
             <div class="row">
                 <div class="col-xl-3 col-lg-6">
@@ -125,12 +118,7 @@
                                 </select>
                             </div>
                         </div>
-
-
-
                     </fieldset>
-
-
                 </div>
                 <div class="col-xl-3 col-lg-6">
                     <fieldset class="">
@@ -144,24 +132,16 @@
                                 </select>
                             </div>
                         </div>
-
-
-
                     </fieldset>
-
-
                 </div>
                 <div class="col-xl-2 col-lg-6">
                     <form>
                         <div class="row mb-1 mt-1 p-2">
                             <label for="department" class="col-sm-4 col-md-4 form-label">From:</label>
                             <div class="col-md-8 col-sm-8 col-xs-8">
-                                <input type="date" class="form-control" id="date">
+                                <input type="date" class="form-control" id="date" data-id="" value="" />
                             </div>
                         </div>
-
-
-
                     </form>
                 </div>
                 <div class="col-xl-2 col-lg-6">
@@ -169,25 +149,21 @@
                         <div class="row mb-1 mt-1 p-2">
                             <label for="department" class="col-sm-4 col-md-4 form-label">From:</label>
                             <div class="col-md-8 col-sm-8 col-xs-8">
-                                <input type="date" class="form-control" id="date">
+                                <input type="date" class="form-control" id="date" data-id="" value="" />
                             </div>
                         </div>
-
-
-
                     </form>
                 </div>
                 <div class="col-xl-2 col-lg-12 col-sm-12">
 
                     <div class="input-group rounded mt-1 float-right w-auto mr-2 p-2">
                         <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                            aria-describedby="search-addon" id="myInput" />
+                            aria-describedby="search-addon" id="myInput" data-id="" value=""  />
                      
                     </div>
                 </div>
             </div>
         </blockquote>
-
         <section class="sybmitBn float-right">
             <div class="container-fluid mb-4 mt-3">
                 <button type="button" class="btn btn-success" value="Submit Overtime">
@@ -218,11 +194,11 @@
                             <td> Mujahid</td>
                             <td>IT</td>
                             <td>Developer</td>
-                            <td><input type="date" class="form-control"></td>
-                            <td><input type="date" class="form-control"></td>
-                            <td><input type="text" class="form-control"></td>
+                            <td><input type="date" class="form-control" id="" data-id="" value="" /></td>
+                            <td><input type="date" class="form-control" id="" data-id="" value="" /></td>
+                            <td><input type="text" class="form-control" id="" data-id="" value="" /></td>
                             <td>
-                                <select name="" id="" class="form-control">
+                                <select name="" id="" data-id="" value="" class="form-control">
                                     <option value="">Select</option>
                                     <option value="">...</option>
                                     <option value="">...</option>
@@ -241,9 +217,9 @@
                             <td>Aliyan</td>
                             <td>IT</td>
                             <td>HR</td>
-                            <td><input type="date" class="form-control"></td>
-                            <td><input type="date" class="form-control"></td>
-                            <td><input type="text" class="form-control"></td>
+                            <td><input type="date" class="form-control" id="" data-id="" value="" /></td>
+                            <td><input type="date" class="form-control" id="" data-id="" value="" /></td>
+                            <td><input type="text" class="form-control" id="" data-id="" value="" /></td>
                             <td>
                                 <select name="" id="" class="form-control">
                                     <option value="">Select</option>
@@ -258,8 +234,6 @@
                                     type="button"><i class="fa fa-trash"></i></button>
                             </td>
                         </tr>
-
-
                     </tbody>
                 </table>
             </div>
@@ -271,8 +245,6 @@
                     </button>
             </div>
         </section>
-
-
     </div>
 
     <script>

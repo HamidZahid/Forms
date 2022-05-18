@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./bootstrap-4.6.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./bootstrap-4.6.1-dist/js/bootstrap.min.js">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="cal.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -21,15 +20,9 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
-
-    <link rel="stylesheet" href="./style.css">
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
     <script type="text/javascript" charset="utf8"
         src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
-
 
     <style>
         body {
@@ -41,30 +34,8 @@
 
 <body>
     <div class="container-fluid">
-        <section class="container-fluid">
-
-
-
-        </section>
-
-
-
-
         <blockquote class="blockquote mt-2">
             <div class="conatiner-fluid">
-                <!-- <div class="col-xl-9 col-lg-6">
-                <h4>Payslips</h4>      
-                </div>
-                <div class="col-xl-1 col-lg-6">
-                 <a href=""><i class="fa fa-envelope fa-3"></i></a>
-                </div>
-                <div class="col-xl-1 col-lg-6">
-                
-                </div>
-                <div class="col-xl-1 col-lg-12 col-sm-12">
-
-                   
-                </div> -->
                 <!-- Navbar -->
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="#">
@@ -75,7 +46,6 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
@@ -103,93 +73,67 @@
                 </nav>
                 <!-- Navbar -->
             </div>
-
         </blockquote>
-       
-       
-
-            
-                <div class="container-fluid mx-2">
-                    <div class="row ">
-                        <div class="col-xl-4 col-lg-6">
-                            <fieldset class="">
-                                <div class="row mb-1 mt-1 ">
-                                    <label for="overtime" class="col-xl-5 col-md-4 col-sm-4 form-label ">Employee Name:
-                                    </label>
-                                    <div class="col-xl-10 col-md-10 col-sm-10">
-                                        <select name="" id="" class="custom-select">
-                                            <option value="">Select</option>
-                                            <option value="">...</option>
-                                            <option value="">...</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-
-
-                            </fieldset>
-
-
-                        </div>
-
-                        <div class="col-xl-3 col-lg-6">
-                            <form>
-                                <div class="row mb-1 mt-1 ">
-                                    <label for="department" class="col-sm-6 col-md-6 form-label">Month:</label>
-                                    <div class="col-md-10 col-sm-10 col-xs-10">
-                                        <input type="date" class="form-control" id="date">
-                                    </div>
-                                </div>
-
-
-
-                            </form>
-                        </div>
-                        <div class="col-xl-3 col-lg-6">
-                            <form>
-                                <div class="row mb-1 mt-1 ">
-                                    <label for="department" class="col-sm-4 col-md-4 form-label">Year:</label>
-                                    <div class="col-md-10 col-sm-10 col-xs-10">
-                                        <input type="date" class="form-control" id="date">
-                                    </div>
-                                </div>
-
-
-
-                            </form>
-                        </div>
-                        <div class="col-xl-2 col-lg-12 col-sm-12">
-
-                            <div class="input-group rounded   float-right " style="margin-top: 36px;">
-                                <button type="button" class="btn btn-primary w-100">Search</button>
-
+        <div class="container-fluid mx-2">
+            <div class="row ">
+                <div class="col-xl-4 col-lg-6">
+                    <fieldset class="">
+                        <div class="row mb-1 mt-1 ">
+                            <label for="overtime" class="col-xl-5 col-md-4 col-sm-4 form-label ">Employee Name:
+                            </label>
+                            <div class="col-xl-10 col-md-10 col-sm-10">
+                                <select name="" id="" class="custom-select">
+                                    <option value="">Select</option>
+                                    <option value="">...</option>
+                                    <option value="">...</option>
+                                </select>
                             </div>
                         </div>
+                    </fieldset>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <form>
+                        <div class="row mb-1 mt-1 ">
+                            <label for="department" class="col-sm-6 col-md-6 form-label">Month:</label>
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                                <input type="date" class="form-control" id="date" data-id="" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <form>
+                        <div class="row mb-1 mt-1 ">
+                            <label for="department" class="col-sm-4 col-md-4 form-label">Year:</label>
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                                <input type="date" class="form-control" id="date" data-id="" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-xl-2 col-lg-12 col-sm-12">
+
+                    <div class="input-group rounded   float-right " style="margin-top: 36px;">
+                        <button type="button" class="btn btn-primary w-100">Search</button>
                     </div>
                 </div>
-                <hr>
-                <section class="submitBn float-right">
+            </div>
+        </div>
+        <hr>
+        <section class="p-2 bg-light rounded">
+            <div class="container-fluid overflow-auto">
+                <div class="row">
+                    <div class="col-md-8">
 
-                </section>
-
-                <section class="p-2 bg-light rounded">
-                   
-                    <div class="container-fluid overflow-auto">
-                        <div class="row">
-                            <div class="col-md-8">
-                        
                         <table class="bg-light display" id="myTable" style="width:100%">
                             <thead>
                                 <tr>
                                 <tr>
-
                                     <th scope="col">No</th>
                                     <th scope="col">Day</th>
                                     <th scope="col">Date</th>
                                     <th scope="col"> Holidays</th>
                                     <th scope="col">Action</th>
-                                    
-                                
                                 </tr>
                                 </tr>
                             </thead>
@@ -198,8 +142,8 @@
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
                                     <th>01</th>
-                                    <th><input type="week" class="form-control"></th>
-                                    <th><input type="date" class="form-control"></th>
+                                    <th><input type="week" class="form-control" id="" value="" data-id="" /></th>
+                                    <th><input type="date" class="form-control" id="" value="" data-id="" /></th>
                                     <th>XYZ Holiday</th>
 
                                     <td>
@@ -208,52 +152,38 @@
                                         <button class="btn btn-sm btn-outline-danger edit_employee #348C7E" data-id=""
                                             type="button"><i class="fa-solid fa-trash-can"></i></button>
                                     </td>
-                                   
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
                                     <th>01</th>
-                                    <th><input type="week" class="form-control"></th>
-                                    <th><input type="date" class="form-control"></th>
+                                    <th><input type="week" class="form-control" id="" value="" data-id="" /></th>
+                                    <th><input type="date" class="form-control" id="" value="" data-id="" /></th>
                                     <th>XYZ Holiday</th>
-
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
                                             type="button"><i class="fa-solid fa-pen-to-square"></i></button>
                                         <button class="btn btn-sm btn-outline-danger edit_employee #348C7E" data-id=""
                                             type="button"><i class="fa-solid fa-trash-can"></i></button>
                                     </td>
-                                   
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
                                     <th>01</th>
-                                    <th><input type="week" class="form-control"></th>
-                                    <th><input type="date" class="form-control"></th>
+                                    <th><input type="week" class="form-control" id="" value="" data-id="" /></th>
+                                    <th><input type="date" class="form-control" id="" value="" data-id="" /></th>
                                     <th>XYZ Holiday</th>
-
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
                                             type="button"><i class="fa-solid fa-pen-to-square"></i></button>
                                         <button class="btn btn-sm btn-outline-danger edit_employee #348C7E" data-id=""
                                             type="button"><i class="fa-solid fa-trash-can"></i></button>
                                     </td>
-                                   
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
                                     <th>01</th>
-                                    <th><input type="week" class="form-control"></th>
-                                    <th><input type="date" class="form-control"></th>
+                                    <th><input type="week" class="form-control" id="" value="" data-id="" /></th>
+                                    <th><input type="date" class="form-control" id="" value="" data-id="" /></th>
                                     <th>XYZ Holiday</th>
 
                                     <td>
@@ -262,16 +192,12 @@
                                         <button class="btn btn-sm btn-outline-danger edit_employee #348C7E" data-id=""
                                             type="button"><i class="fa-solid fa-trash-can"></i></button>
                                     </td>
-                                   
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
                                     <th>01</th>
-                                    <th><input type="week" class="form-control"></th>
-                                    <th><input type="date" class="form-control"></th>
+                                    <th><input type="week" class="form-control" id="" value="" data-id="" /></th>
+                                    <th><input type="date" class="form-control" id="" value="" data-id="" /></th>
                                     <th>XYZ Holiday</th>
 
                                     <td>
@@ -280,59 +206,17 @@
                                         <button class="btn btn-sm btn-outline-danger edit_employee #348C7E" data-id=""
                                             type="button"><i class="fa-solid fa-trash-can"></i></button>
                                     </td>
-                                   
-
-
-
                                 </tr>
-                              
                             </tbody>
                         </table>
-                       
                     </div>
                     <div class="col-md-4 ">
-                        
-                        <section >
-                            <div class="box" >
-                                <div class="container" >
-                                    <div id="calendar" >
-                    
-                                    </div>
-                    
-                                </div>
-                            </div>
-                    
-                        </section>
-                        
+                        <!-- Space For Calendar -->
                     </div>
-                    </div>
-                    </div>
-                </section>
+                </div>
             </div>
-           
-            <script src="calendar.js"></script>
-            <script>
-                dycalendar.draw({
-                    target:'#calendar',
-                    type:'month',
-                    dayformat:'full',
-                    monthformat:'full',
-                    highlighttargetdate:true,
-                    prevnextbutton:'show'
-        
-                })
-            </script>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        
-          ga('create', 'UA-46156385-1', 'cssscript.com');
-          ga('send', 'pageview');
-        
-        </script> 
-
+        </section>
+    </div>
     <script>
         $(document).ready(function () {
             $("#myInput").on("keyup", function () {
@@ -373,9 +257,6 @@
             })
         }
     </script>
-
-
-
 </body>
 
 </html>

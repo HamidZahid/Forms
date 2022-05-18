@@ -12,9 +12,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Annual Increment</title>
 </head>
@@ -28,53 +25,41 @@
                         <div class="row mb-3 mt-3 p-1">
                             <label for="date" class="col-xl-2 col-lg-2 form-label">Date:</label>
                             <div class="col-xl-8 col-lg-10 col-sm-12">
-                                <input type="date" class="form-control" id="date">
+                                <input type="date" class="form-control" id="date" data-id="" />
                             </div>
                         </div>
-
-
-
                     </form>
-
-
                 </div>
                 <div class="col-xl-3 col-lg-6">
                     <form>
                         <div class="row mb-3 mt-3 p-1">
                             <label for="department" class="col-xl-5 col-lg-4 form-label">Department:</label>
                             <div class="col-xl-7 col-lg-6 col-sm-12">
-                                <select name="" id="" class="form-control  " >
+                                <select name="" id="" data-id="" class="form-control">
                                     <option value="">Select Department</option>
                                     <option value="">...</option>
                                     <option value="">...</option>
                                 </select>
                             </div>
                         </div>
-
-
-
                     </form>
                 </div>
                 <div class="col-xl-6 col-lg-12">
-
                     <div class="input-group rounded mt-3 float-right w-auto mr-2 p-2">
                         <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                            aria-describedby="search-addon" id="myInput" />
-                       
+                            aria-describedby="search-addon" id="myInput" data-id="" />
+
                     </div>
                 </div>
             </div>
         </blockquote>
-
         <section class="sybmitBn float-right">
             <div class="container-fluid mb-4">
                 <button type="button" class="btn btn-success" value="Submit Overtime">
                     <i class="fa fa-add "></i><span class="m-1">Submit Overtime</span>
-                    </button>
-
+                </button>
             </div>
         </section>
-
         <section class="">
             <div class="container-fluid overflow-auto">
                 <table class="bg-success " id="myTable">
@@ -98,10 +83,10 @@
                             <td>Mujahid</td>
                             <td>IT</td>
                             <td>Developer</td>
-                            <td><input type="date" class="form-control"></td>
-                            <td><input type="date" class="form-control"></td>
-                            <td><input type="text" class="form-control"></td>
-                            <td><input type="text" class="form-control"></td>
+                            <td><input type="date" class="form-control" id="" value="" data-id="" /></td>
+                            <td><input type="date" class="form-control" id="" value="" data-id="" /></td>
+                            <td><input type="text" class="form-control" id="" value="" data-id="" /></td>
+                            <td><input type="text" class="form-control" id="" value="" data-id="" /></td>
                             <td>
                                 <select name="" id="" class="form-control">
                                     <option value=""></option>
@@ -122,10 +107,10 @@
                             <td>Aliyan</td>
                             <td>IT</td>
                             <td>HR</td>
-                            <td><input type="date" class="form-control"></td>
-                            <td><input type="date" class="form-control"></td>
-                            <td><input type="text" class="form-control"></td>
-                            <td><input type="text" class="form-control"></td>
+                            <td><input type="date" class="form-control" id="" value="" data-id="" /></td>
+                            <td><input type="date" class="form-control" id="" value="" data-id="" /></td>
+                            <td><input type="text" class="form-control" id="" value="" data-id="" /></td>
+                            <td><input type="text" class="form-control" id="" value="" data-id="" /></td>
                             <td>
                                 <select name="" id="" class="form-control">
                                     <option value=""></option>
@@ -140,22 +125,17 @@
                                     type="button"><i class="fa fa-trash"></i></button>
                             </td>
                         </tr>
-
-
                     </tbody>
                 </table>
             </div>
         </section>
-
         <section class="sybmitBn float-right">
             <div class="container-fluid mb-4 mt-3">
                 <button type="button" class="btn btn-success" value="Submit Overtime">
                     <i class="fa fa-add "></i><span class="m-1">Submit Overtime</span>
-                    </button>
+                </button>
             </div>
         </section>
-
-
     </div>
 
     <script>
@@ -190,7 +170,6 @@
             })
         }
     </script>
-
 </body>
 
 </html>

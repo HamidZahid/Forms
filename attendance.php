@@ -20,14 +20,10 @@
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
 
-    <link rel="stylesheet" href="./style.css">
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script type="text/javascript" charset="utf8"
         src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
-
 
     <style>
         body {
@@ -39,30 +35,8 @@
 
 <body>
     <div class="container-fluid">
-        <section class="container-fluid">
-
-
-
-        </section>
-
-
-
-
         <blockquote class="blockquote mt-2">
             <div class="conatiner-fluid">
-                <!-- <div class="col-xl-9 col-lg-6">
-                <h4>Payslips</h4>      
-                </div>
-                <div class="col-xl-1 col-lg-6">
-                 <a href=""><i class="fa fa-envelope fa-3"></i></a>
-                </div>
-                <div class="col-xl-1 col-lg-6">
-                
-                </div>
-                <div class="col-xl-1 col-lg-12 col-sm-12">
-
-                   
-                </div> -->
                 <!-- Navbar -->
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="#">
@@ -107,14 +81,6 @@
             <div class="container-fluid">
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
-              <li class="nav-item active" >
-                <a class="nav-link active " aria-current="page" href="dashboard.html">Active Employees</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link active" aria-current="page" href="#">Present Employee </a>
-              </li>
-            </ul> -->
                     <ul class="nav nav-tabs" id="myTab">
                         <li class="nav-item">
                             <a class="nav-link text-dark mx-4" data-toggle="tab" id="Workers" onclick="myf()"
@@ -125,13 +91,11 @@
                                 href="#PresentEmployees">Attendance By Users </a>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
         <!-- Tabs -->
         <div class="tab-content" id="myTabContent">
-
             <div class="tab-pane fade show active " id="ActiveEmployees">
                 <div class="container-fluid mx-2">
                     <div class="row ">
@@ -148,25 +112,16 @@
                                         </select>
                                     </div>
                                 </div>
-
-
-
                             </fieldset>
-
-
                         </div>
-
                         <div class="col-xl-3 col-lg-6">
                             <form>
                                 <div class="row mb-1 mt-1 ">
                                     <label for="department" class="col-sm-6 col-md-6 form-label">Month:</label>
                                     <div class="col-md-10 col-sm-10 col-xs-10">
-                                        <input type="date" class="form-control" id="date">
+                                        <input type="date" class="form-control" id="date" id="" value="" data-id="" />
                                     </div>
                                 </div>
-
-
-
                             </form>
                         </div>
                         <div class="col-xl-3 col-lg-6">
@@ -174,12 +129,9 @@
                                 <div class="row mb-1 mt-1 ">
                                     <label for="department" class="col-sm-4 col-md-4 form-label">Year:</label>
                                     <div class="col-md-10 col-sm-10 col-xs-10">
-                                        <input type="date" class="form-control" id="date">
+                                        <input type="date" class="form-control" id="date" id="date" id="" value="" data-id="" />
                                     </div>
                                 </div>
-
-
-
                             </form>
                         </div>
                         <div class="col-xl-2 col-lg-12 col-sm-12">
@@ -192,10 +144,6 @@
                     </div>
                 </div>
                 <hr>
-                <section class="submitBn float-right">
-
-                </section>
-
                 <section class="p-2 bg-light rounded">
                     <div class="container-fluid my-3">
                         <div class="row">
@@ -203,29 +151,27 @@
                                 <h5>Note:</h5>
                             </div>
                             <div class="col-md-2">
-                                
+
                                 <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
-                                type="button"><i class="fa-solid fa-circle-check "> &rarr; Present</i></button>
+                                    type="button"><i class="fa-solid fa-circle-check "> &rarr; Present</i></button>
                             </div>
                             <div class="col-md-3">
-                                
+
                                 <button class="btn btn-sm btn-outline-danger remove_employee" data-id=""
-                                            type="button"><i class="fa-solid fa-circle-xmark  mx-5"> &rarr; Absent</i></button>
+                                    type="button"><i class="fa-solid fa-circle-xmark  mx-5"> &rarr; Absent</i></button>
                             </div>
                             <div class="col-md-2">
-                                
+
                                 <button class="btn btn-sm btn-outline-warning remove_employee" data-id=""
-                                            type="button"><i class="fa-solid fa-circle-check  "> &rarr; Holiday</i></button>
+                                    type="button"><i class="fa-solid fa-circle-check  "> &rarr; Holiday</i></button>
                             </div>
                             <div class="col-md-3">
-                                
+
                                 <button class="btn btn-sm btn-outline-primary remove_employee" data-id=""
-                                            type="button"><i class="fa-solid fa-circle-half-stroke  mx-5"> &rarr; Half Day</i></button>
+                                    type="button"><i class="fa-solid fa-circle-half-stroke  mx-5"> &rarr; Half
+                                        Day</i></button>
                             </div>
                         </div>
-
-
-                      
                     </div>
                     <hr>
                     <div class="container-fluid overflow-auto">
@@ -233,7 +179,6 @@
                             <thead>
                                 <tr>
                                 <tr>
-
                                     <th scope="col">EmployeeName</th>
                                     <th scope="col">1</th>
                                     <th scope="col">2</th>
@@ -258,7 +203,8 @@
 
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th> <img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
+                                    <th> <img src="download.jpg" alt="Profile Pic"
+                                            style="width: 40px; border-radius: 50%; height: 40px;"/> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -324,13 +270,11 @@
                                         <button class="btn btn-sm btn-outline-danger remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-circle-check  "></i></button>
                                     </td>
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th>  <img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
+                                    <th> <img src="download.jpg" alt="Profile Pic"
+                                            style="width: 40px; border-radius: 50%; height: 40px;"/> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -396,13 +340,11 @@
                                         <button class="btn btn-sm btn-outline-danger remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-circle-check  "></i></button>
                                     </td>
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic"
+                                            style="width: 40px; border-radius: 50%; height: 40px;"/> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -468,13 +410,11 @@
                                         <button class="btn btn-sm btn-outline-danger remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-circle-check  "></i></button>
                                     </td>
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic"
+                                            style="width: 40px; border-radius: 50%; height: 40px;"/> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -540,13 +480,11 @@
                                         <button class="btn btn-sm btn-outline-danger remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-circle-check  "></i></button>
                                     </td>
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic"
+                                            style="width: 40px; border-radius: 50%; height: 40px;"/> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -612,13 +550,11 @@
                                         <button class="btn btn-sm btn-outline-danger remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-circle-check  "></i></button>
                                     </td>
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic"
+                                            style="width: 40px; border-radius: 50%; height: 40px;"/> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -684,13 +620,11 @@
                                         <button class="btn btn-sm btn-outline-danger remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-circle-check  "></i></button>
                                     </td>
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic"
+                                            style="width: 40px; border-radius: 50%; height: 40px;"/> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -756,13 +690,11 @@
                                         <button class="btn btn-sm btn-outline-danger remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-circle-check  "></i></button>
                                     </td>
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic"
+                                            style="width: 40px; border-radius: 50%; height: 40px;"/> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -828,13 +760,11 @@
                                         <button class="btn btn-sm btn-outline-danger remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-circle-check  "></i></button>
                                     </td>
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic"
+                                            style="width: 40px; border-radius: 50%; height: 40px;"/> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -900,13 +830,11 @@
                                         <button class="btn btn-sm btn-outline-danger remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-circle-check  "></i></button>
                                     </td>
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><img src="download.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Mujahid</th>
+                                    <th><img src="download.jpg" alt="Profile Pic"
+                                            style="width: 40px; border-radius: 50%; height: 40px;" /> Mujahid</th>
 
                                     <td>
                                         <button class="btn btn-sm btn-outline-success edit_employee #348C7E" data-id=""
@@ -972,18 +900,7 @@
                                         <button class="btn btn-sm btn-outline-danger remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-circle-check  "></i></button>
                                     </td>
-
-
-
                                 </tr>
-
-
-
-
-
-
-
-
                             </tbody>
                         </table>
                     </div>
@@ -993,37 +910,34 @@
                 <div class="container-fluid my-3">
                     <div class="row">
                         <div class="col-md-2 text-center">
-                            <button type="button" class="btn btn-primary " >31</button>
-                            <h6 >Total Working Days</h6>
+                            <button type="button" class="btn btn-primary ">31</button>
+                            <h6>Total Working Days</h6>
                         </div>
                         <div class="col-md-2 text-center">
-                            <button type="button" class="btn btn-success " >24</button>
-                            <h6 >Present  Days</h6>
+                            <button type="button" class="btn btn-success ">24</button>
+                            <h6>Present Days</h6>
                         </div>
-                        <div class="col-md-2 text-center"> 
+                        <div class="col-md-2 text-center">
                             <button type="button" class="btn btn-danger ">2</button>
-                            <h6 >Absent  Days</h6>
+                            <h6>Absent Days</h6>
                         </div>
                         <div class="col-md-2 text-center">
-                            <button type="button" class="btn btn-warning " >0</button>
-                            <h6 >Half  Days</h6>
+                            <button type="button" class="btn btn-warning ">0</button>
+                            <h6>Half Days</h6>
                         </div>
                         <div class="col-md-2 text-center">
-                            <button type="button" class="btn btn-danger " >2</button>
-                            <h6 >Late  Days</h6>
+                            <button type="button" class="btn btn-danger ">2</button>
+                            <h6>Late Days</h6>
                         </div>
                         <div class="col-md-2 text-center">
-                           <button type="button" class="btn btn-danger " >5</button>
-                            <h6 >Holiday  Days</h6> 
+                            <button type="button" class="btn btn-danger ">5</button>
+                            <h6>Holiday Days</h6>
                         </div>
                     </div>
-
-
-                  
                 </div>
                 <hr>
                 <div class="container-fluid mx-2">
-                    
+
                     <div class="row ">
                         <div class="col-xl-4 col-lg-6">
                             <fieldset class="">
@@ -1038,14 +952,8 @@
                                         </select>
                                     </div>
                                 </div>
-
-
-
                             </fieldset>
-
-
                         </div>
-
                         <div class="col-xl-3 col-lg-6">
                             <form>
                                 <div class="row mb-1 mt-1 ">
@@ -1054,9 +962,6 @@
                                         <input type="date" class="form-control" id="date">
                                     </div>
                                 </div>
-
-
-
                             </form>
                         </div>
                         <div class="col-xl-2 col-lg-6">
@@ -1064,12 +969,9 @@
                                 <div class="row mb-1 mt-1 ">
                                     <label for="department" class="col-sm-4 col-md-4 form-label">Month:</label>
                                     <div class="col-md-10 col-sm-10 col-xs-10">
-                                        <input type="date" class="form-control" id="date">
+                                        <input type="date" class="form-control" id="date" id="date" id="" value="" data-id="" />
                                     </div>
                                 </div>
-
-
-
                             </form>
                         </div>
                         <div class="col-xl-2 col-lg-6">
@@ -1077,12 +979,9 @@
                                 <div class="row mb-1 mt-1 ">
                                     <label for="department" class="col-sm-4 col-md-4 form-label">Year:</label>
                                     <div class="col-md-10 col-sm-10 col-xs-10">
-                                        <input type="date" class="form-control" id="date">
+                                        <input type="date" class="form-control" id="date" id="date" id="" value="" data-id="" />
                                     </div>
                                 </div>
-
-
-
                             </form>
                         </div>
                         <div class="col-xl-1 col-lg-12 col-sm-12">
@@ -1095,16 +994,12 @@
                     </div>
                 </div>
                 <hr>
-
                 <section class="p-2 bg-light rounded">
-                   
-
                     <div class="container-fluid overflow-auto">
                         <table class="bg-light display" id="myTablee" style="width:100%">
                             <thead>
                                 <tr>
                                 <tr>
-
                                     <th scope="col">Date</th>
                                     <th scope="col">Day</th>
                                     <th scope="col">Status</th>
@@ -1116,201 +1011,163 @@
                                 </tr>
                             </thead>
                             <tbody id="dataTablee">
-                                
+
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><input type="date" class="form-control"></th>
+                                    <th><input type="date" class="form-control" id="date" id="" value="" data-id="" /></th>
 
-                                    <td><input type="week" class="form-control"></td>
+                                    <td><input type="week" class="form-control" id="date" id="" value="" data-id="" /></td>
                                     <td>
                                         Present
                                     </td>
                                     <td>
-                                       8:00Am
+                                        8:00Am
                                     </td>
                                     <td>
-                                      6:00Pm
+                                        6:00Pm
                                     </td>
                                     <td>
                                         <div class="progress mt-1  " data-height="8" style="height: 8px;">
-                                            <div class="progress-bar l-bg-cyan bg-success" role="progressbar" data-width="25%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
-                                                style="width: 69%;"></div>
+                                            <div class="progress-bar l-bg-cyan bg-success" role="progressbar"
+                                                data-width="25%" aria-valuenow="25" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 69%;"></div>
                                         </div>
                                     </td>
                                     <td>
                                         <button class="btn btn-sm btn-outline-primary remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-eye"></i></button>
                                     </td>
-
-
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><input type="date" class="form-control"></th>
+                                    <th><input type="date" class="form-control" id="date" id="" value="" data-id="" /></th>
 
-                                    <td><input type="week" class="form-control"></td>
+                                    <td><input type="week" class="form-control" id="date" id="" value="" data-id="" /></td>
                                     <td>
                                         Present
                                     </td>
                                     <td>
-                                       8:00Am
+                                        8:00Am
                                     </td>
                                     <td>
-                                      6:00Pm
+                                        6:00Pm
                                     </td>
                                     <td>
                                         <div class="progress mt-1 bg-danger " data-height="8" style="height: 8px;">
-                                            <div class="progress-bar l-bg-cyan bg-success" role="progressbar" data-width="25%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
-                                                style="width: 69%;"></div>
+                                            <div class="progress-bar l-bg-cyan bg-success" role="progressbar"
+                                                data-width="25%" aria-valuenow="25" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 69%;"></div>
                                         </div>
                                     </td>
                                     <td>
                                         <button class="btn btn-sm btn-outline-primary remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-eye"></i></button>
                                     </td>
-
-
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><input type="date" class="form-control"></th>
+                                    <th><input type="date" class="form-control" id="date" id="" value="" data-id="" /></th>
 
-                                    <td><input type="week" class="form-control"></td>
+                                    <td><input type="week" class="form-control" id="date" id="" value="" data-id="" /></td>
                                     <td>
                                         Present
                                     </td>
                                     <td>
-                                       8:00Am
+                                        8:00Am
                                     </td>
                                     <td>
-                                      6:00Pm
+                                        6:00Pm
                                     </td>
                                     <td>
                                         <div class="progress mt-1 bg-success  " data-height="8" style="height: 8px;">
-                                            <div class="progress-bar l-bg-cyan bg-success" role="progressbar" data-width="25%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
-                                                style="width: 49%;"></div>
+                                            <div class="progress-bar l-bg-cyan bg-success" role="progressbar"
+                                                data-width="25%" aria-valuenow="25" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 49%;"></div>
                                         </div>
                                     </td>
                                     <td>
                                         <button class="btn btn-sm btn-outline-primary remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-eye"></i></button>
                                     </td>
-
-
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><input type="date" class="form-control"></th>
+                                    <th><input type="date" class="form-control" id="date" id="" value="" data-id="" /></th>
 
-                                    <td><input type="week" class="form-control"></td>
+                                    <td><input type="week" class="form-control" id="date" id="" value="" data-id="" /></td>
                                     <td>
                                         Present
                                     </td>
                                     <td>
-                                       8:00Am
+                                        8:00Am
                                     </td>
                                     <td>
-                                      6:00Pm
+                                        6:00Pm
                                     </td>
                                     <td>
                                         <div class="progress mt-1  " data-height="8" style="height: 8px;">
-                                            <div class="progress-bar l-bg-cyan bg-success" role="progressbar" data-width="25%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
-                                                style="width: 69%;"></div>
+                                            <div class="progress-bar l-bg-cyan bg-success" role="progressbar"
+                                                data-width="25%" aria-valuenow="25" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 69%;"></div>
                                         </div>
                                     </td>
                                     <td>
                                         <button class="btn btn-sm btn-outline-primary remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-eye"></i></button>
                                     </td>
-
-
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><input type="date" class="form-control"></th>
+                                    <th><input type="date" class="form-control" id="date" id="" value="" data-id="" /></th>
 
-                                    <td><input type="week" class="form-control"></td>
+                                    <td><input type="week" class="form-control" id="date" id="" value="" data-id="" /></td>
                                     <td>
                                         Present
                                     </td>
                                     <td>
-                                       8:00Am
+                                        8:00Am
                                     </td>
                                     <td>
-                                      6:00Pm
+                                        6:00Pm
                                     </td>
                                     <td>
                                         <div class="progress mt-1 bg-success " data-height="8" style="height: 8px;">
-                                            <div class="progress-bar l-bg-cyan bg-success" role="progressbar" data-width="25%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
-                                                style="width: 9%;"></div>
+                                            <div class="progress-bar l-bg-cyan bg-success" role="progressbar"
+                                                data-width="25%" aria-valuenow="25" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 9%;"></div>
                                         </div>
                                     </td>
                                     <td>
                                         <button class="btn btn-sm btn-outline-primary remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-eye"></i></button>
                                     </td>
-
-
-
-
-
                                 </tr>
                                 <tr href="javascript:void(0)" onclick="change_color(this)">
 
-                                    <th><input type="date" class="form-control"></th>
+                                    <th><input type="date" class="form-control" id="date" id="" value="" data-id="" /></th>
 
-                                    <td><input type="week" class="form-control"></td>
+                                    <td><input type="week" class="form-control" id="date" id="" value="" data-id="" /></td>
                                     <td>
                                         Present
                                     </td>
                                     <td>
-                                       8:00Am
+                                        8:00Am
                                     </td>
                                     <td>
-                                      6:00Pm
+                                        6:00Pm
                                     </td>
                                     <td>
                                         <div class="progress mt-1 bg-success  " data-height="8" style="height: 8px;">
-                                            <div class="progress-bar l-bg-cyan bg-success" role="progressbar" data-width="25%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
-                                                style="width: 80%;"></div>
+                                            <div class="progress-bar l-bg-cyan bg-success" role="progressbar"
+                                                data-width="25%" aria-valuenow="25" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 80%;"></div>
                                         </div>
                                     </td>
                                     <td>
                                         <button class="btn btn-sm btn-outline-primary remove_employee" data-id=""
                                             type="button"><i class="fa-solid fa-eye"></i></button>
                                     </td>
-
-
-
-
-
                                 </tr>
-
-
-
-
-
-
-
-
                             </tbody>
                         </table>
                     </div>
@@ -1359,8 +1216,6 @@
             })
         }
     </script>
-
-
 
 </body>
 

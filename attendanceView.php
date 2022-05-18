@@ -20,14 +20,10 @@
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
 
-    <link rel="stylesheet" href="./style.css">
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script type="text/javascript" charset="utf8"
         src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
-
 
     <style>
         body {
@@ -39,30 +35,8 @@
 
 <body>
     <div class="container-fluid">
-        <section class="container-fluid">
-
-
-
-        </section>
-
-
-
-
         <blockquote class="blockquote mt-2">
             <div class="conatiner-fluid">
-                <!-- <div class="col-xl-9 col-lg-6">
-                <h4>Payslips</h4>      
-                </div>
-                <div class="col-xl-1 col-lg-6">
-                 <a href=""><i class="fa fa-envelope fa-3"></i></a>
-                </div>
-                <div class="col-xl-1 col-lg-6">
-                
-                </div>
-                <div class="col-xl-1 col-lg-12 col-sm-12">
-
-                   
-                </div> -->
                 <!-- Navbar -->
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="#">
@@ -132,9 +106,6 @@
                     <h6>Holiday Days</h6>
                 </div>
             </div>
-
-
-
         </div>
         <hr>
         <div class="container-fluid mx-2">
@@ -153,25 +124,16 @@
                                 </select>
                             </div>
                         </div>
-
-
-
                     </fieldset>
-
-
                 </div>
-
                 <div class="col-xl-3 col-lg-6">
                     <form>
                         <div class="row mb-1 mt-1 ">
                             <label for="department" class="col-sm-6 col-md-6 form-label">Select Date:</label>
                             <div class="col-md-10 col-sm-10 col-xs-10">
-                                <input type="date" class="form-control" id="date">
+                                <input type="date" class="form-control" id="date" data-id="" />
                             </div>
                         </div>
-
-
-
                     </form>
                 </div>
                 <div class="col-xl-2 col-lg-6">
@@ -179,12 +141,9 @@
                         <div class="row mb-1 mt-1 ">
                             <label for="department" class="col-sm-4 col-md-4 form-label">Month:</label>
                             <div class="col-md-10 col-sm-10 col-xs-10">
-                                <input type="date" class="form-control" id="date">
+                                <input type="date" class="form-control" id="date" data-id="" />
                             </div>
                         </div>
-
-
-
                     </form>
                 </div>
                 <div class="col-xl-2 col-lg-6">
@@ -192,34 +151,26 @@
                         <div class="row mb-1 mt-1 ">
                             <label for="department" class="col-sm-4 col-md-4 form-label">Year:</label>
                             <div class="col-md-10 col-sm-10 col-xs-10">
-                                <input type="date" class="form-control" id="date">
+                                <input type="date" class="form-control" id="date" data-id="" />
                             </div>
                         </div>
-
-
-
                     </form>
                 </div>
                 <div class="col-xl-1 col-lg-12 col-sm-12">
 
                     <div class="input-group rounded   float-right " style="margin-top: 36px;">
                         <button type="button" class="btn btn-primary w-100">Search</button>
-
                     </div>
                 </div>
             </div>
         </div>
         <hr>
-
         <section class="p-2 bg-light rounded">
-
-
             <div class="container-fluid overflow-auto">
                 <table class="bg-light display" id="myTablee" style="width:100%">
                     <thead>
                         <tr>
                         <tr>
-
                             <th scope="col">Emp ID</th>
                             <th scope="col">Emp Name</th>
                             <th scope="col">Last Absent</th>
@@ -239,7 +190,8 @@
 
                             <th>#6729</th>
 
-                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Maria Bower</td>
+                            <td><img src="photo.jpg" alt="Profile Pic"
+                                    style="width: 40px; border-radius: 50%; height: 40px;"/> Maria Bower</td>
                             <td><Button type="button" class="btn btn-danger">8 Days</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -254,7 +206,8 @@
 
                             <th>#6729</th>
 
-                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Maria Bower</td>
+                            <td><img src="photo.jpg" alt="Profile Pic"
+                                    style="width: 40px; border-radius: 50%; height: 40px;"/> Maria Bower</td>
                             <td><Button type="button" class="btn btn-danger">1 Days</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -269,7 +222,8 @@
 
                             <th>#6629</th>
 
-                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Harry Bower</td>
+                            <td><img src="photo.jpg" alt="Profile Pic"
+                                    style="width: 40px; border-radius: 50%; height: 40px;"/> Harry Bower</td>
                             <td><Button type="button" class="btn btn-success">Never</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -284,7 +238,8 @@
 
                             <th>#6749</th>
 
-                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Maria Bower</td>
+                            <td><img src="photo.jpg" alt="Profile Pic"
+                                    style="width: 40px; border-radius: 50%; height: 40px;"/> Maria Bower</td>
                             <td><Button type="button" class="btn btn-danger">4 Days</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -299,7 +254,8 @@
 
                             <th>#6730</th>
 
-                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Bower</td>
+                            <td><img src="photo.jpg" alt="Profile Pic"
+                                    style="width: 40px; border-radius: 50%; height: 40px;"/> Bower</td>
                             <td><Button type="button" class="btn btn-dark">2 Days</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -314,7 +270,8 @@
 
                             <th>#6729</th>
 
-                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Maria </td>
+                            <td><img src="photo.jpg" alt="Profile Pic"
+                                    style="width: 40px; border-radius: 50%; height: 40px;"/> Maria </td>
                             <td><Button type="button" class="btn btn-danger">2 Days</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -329,7 +286,8 @@
 
                             <th>#6729</th>
 
-                            <td><img src="photo.jpg" alt="Profile Pic" style="width: 40px; border-radius: 50%; height: 40px;"> Abc </td>
+                            <td><img src="photo.jpg" alt="Profile Pic"
+                                    style="width: 40px; border-radius: 50%; height: 40px;"/> Abc </td>
                             <td><Button type="button" class="btn btn-warning">8 Days</Button></td>
                             <td>1</td>
                             <td>4</td>
@@ -340,9 +298,6 @@
                             <td>0</td>
 
                         </tr>
-                       
-
-
                     </tbody>
                 </table>
             </div>
