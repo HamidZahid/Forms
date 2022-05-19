@@ -55,7 +55,6 @@
                 <table class="bg-light display" id="myTable" style="width:100%">
                     <thead>
                         <tr>
-                        <tr>
                             <th scope="col">No</th>
                             <th scope="col">Emp ID</th>
                             <th scope="col">Emp Name</th>
@@ -63,7 +62,6 @@
                             <th scope="col">Attendance</th>
                             <th scope="col">Award Type</th>
                             <th scope="col">Gift Type</th>
-                        </tr>
                         </tr>
                     </thead>
                     <tbody id="dataTable">

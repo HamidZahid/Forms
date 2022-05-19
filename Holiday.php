@@ -103,13 +103,11 @@
                         <table class="bg-light display" id="myTable" style="width:100%">
                             <thead>
                                 <tr>
-                                <tr>
                                     <th scope="col">No</th>
                                     <th scope="col">Day</th>
                                     <th scope="col">Date</th>
                                     <th scope="col"> Holidays</th>
                                     <th scope="col">Action</th>
-                                </tr>
                                 </tr>
                             </thead>
                             <tbody id="dataTable">

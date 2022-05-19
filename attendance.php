@@ -133,7 +133,7 @@
                             <div class="col-md-3">
 
                                 <button class="btn btn-sm btn-outline-danger remove_employee" data-id=""
-                                    type="button"><i class="fa-solid fa-circle-xmark  mx-5"> &rarr; Absent</i></button>
+                                    type="button"><i class="fa-solid fa-circle-xmark  "> &rarr; Absent</i></button>
                             </div>
                             <div class="col-md-2">
 
@@ -143,8 +143,7 @@
                             <div class="col-md-3">
 
                                 <button class="btn btn-sm btn-outline-primary remove_employee" data-id=""
-                                    type="button"><i class="fa-solid fa-circle-half-stroke  mx-5"> &rarr; Half
-                                        Day</i></button>
+                                    type="button"><i class="fa-solid fa-circle-half-stroke  "> &rarr; Half Day</i></button>
                             </div>
                         </div>
                     </div>
@@ -152,7 +151,6 @@
                     <div class="container-fluid overflow-auto">
                         <table class="bg-light display" id="myTable" style="width:100%">
                             <thead>
-                                <tr>
                                 <tr>
                                     <th scope="col">EmployeeName</th>
                                     <th scope="col">1</th>
@@ -171,7 +169,6 @@
                                     <th scope="col">14</th>
                                     <th scope="col">15</th>
                                     <th scope="col">16</th>
-                                </tr>
                                 </tr>
                             </thead>
                             <tbody id="dataTable">
@@ -974,7 +971,6 @@
                         <table class="bg-light display" id="myTablee" style="width:100%">
                             <thead>
                                 <tr>
-                                <tr>
                                     <th scope="col">Date</th>
                                     <th scope="col">Day</th>
                                     <th scope="col">Status</th>
@@ -982,7 +978,6 @@
                                     <th scope="col">Clock Out</th>
                                     <th scope="col"> Progress</th>
                                     <th scope="col"> Action</th>
-                                </tr>
                                 </tr>
                             </thead>
                             <tbody id="dataTablee">

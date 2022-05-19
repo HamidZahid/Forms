@@ -61,7 +61,6 @@
                 <table class="bg-light display" id="myTable" style="width:100%">
                     <thead>
                         <tr>
-                        <tr>
                             <th scope="col">#ID</th>
                             <th scope="col">Employee</th>
                             <th scope="col">Title</th>
@@ -71,7 +70,6 @@
                             <th scope="col">Paid By</th>
                             <th scope="col"> Approval Status</th>
                             <th scope="col">Action</th>
-                        </tr>
                         </tr>
                     </thead>
                     <tbody id="dataTable">

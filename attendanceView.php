@@ -145,7 +145,6 @@
                 <table class="bg-light display" id="myTablee" style="width:100%">
                     <thead>
                         <tr>
-                        <tr>
                             <th scope="col">Emp ID</th>
                             <th scope="col">Emp Name</th>
                             <th scope="col">Last Absent</th>
@@ -156,7 +155,6 @@
                             <th scope="col"> Paternity</th>
                             <th scope="col"> Annual</th>
                             <th scope="col"> Unpaid</th>
-                        </tr>
                         </tr>
                     </thead>
                     <tbody id="dataTablee">
