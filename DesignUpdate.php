@@ -255,9 +255,13 @@
                         </div>
                         <label for="inputAddress"><b>Note :</b></label>
                         <input type="text" class="form-control" id="" value="" data-id="" placeholder="Text" />
-                        <button class="btn btn-primary my-3 "> + Add Faq</button>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn btn-primary  my-3 float-right">Submit</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade show active " id="Sub">
+                    <div class="tab-pane fade show  " id="Sub">
                         <div class="row">
                             <div class="col-md-11">
                                 <button class="btn btn-primary  my-3 float-right"> Add Task</button>
@@ -273,7 +277,8 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <button class="btn btn-xl btn-outline-primary remove_employee mx-3 my-0"
-                                                    data-id="" onclick="myfun()" type="button"><i class="fa-solid fa-ellipsis"></i></button>
+                                                    data-id="" id="de"  onclick="myF()" type="button"><i
+                                                        class="fa-solid fa-ellipsis"></i></button>
                                             </div>
                                         </div>
                                         <h6>Jquery Issues Fixed</h6>
@@ -292,9 +297,10 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <button class="btn btn-xl btn-outline-danger remove_employee mx-3 my-0"
-                                                    data-id="" onclick="myfun()" type="button"><i class="fa-solid fa-ellipsis"></i></button>
-                                                    
-                                             </div>
+                                                    data-id="" id="dem"  onclick="myFu()" type="button"><i
+                                                        class="fa-solid fa-ellipsis"></i></button>
+
+                                            </div>
                                         </div>
                                         <h6>HTML Updated</h6>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa saepe sit
@@ -312,8 +318,8 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <button class="btn btn-xl btn-outline-success remove_employee mx-3 my-0"
-                                                    data-id="" id="demo" onclick="myFunction(this)" type="button"><i class="fa-solid fa-ellipsis "></i></button>
-                                                    
+                                                    data-id="" id="demo"  onclick="myFun()" type="button"><i
+                                                        class="fa-solid fa-ellipsis "></i></button>
                                             </div>
                                         </div>
                                         <h6>HTML Updated</h6>
@@ -351,9 +357,15 @@
     </script>
 
     <script>
-    function myFunction(x) {
-  x.classList.toggle("fa-trash");
-}
+        function myF() {
+            document.getElementById('de').innerHTML = "<i class='fa-solid fa-pen'></i><hr><i class='fa-solid fa-trash'></i>" ;
+        }
+        function myFu() {
+            document.getElementById('dem').innerHTML = "<i class='fa-solid fa-pen'></i><hr><i class='fa-solid fa-trash'></i>" ;
+        }
+        function myFun() {
+            document.getElementById('demo').innerHTML = "<i class='fa-solid fa-pen'></i><hr><i class='fa-solid fa-trash'></i>" ;
+        }
     </script>
 
     <script>
