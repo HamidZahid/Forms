@@ -273,7 +273,8 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <button class="btn btn-xl btn-outline-primary remove_employee mx-3 my-0"
-                                                    data-id="" onclick="myfun()" type="button"><i class="fa-solid fa-ellipsis"></i></button>
+                                                    data-id="" onclick="myfun()" type="button"><i
+                                                        class="fa-solid fa-ellipsis"></i></button>
                                             </div>
                                         </div>
                                         <h6>Jquery Issues Fixed</h6>
@@ -292,9 +293,10 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <button class="btn btn-xl btn-outline-danger remove_employee mx-3 my-0"
-                                                    data-id="" onclick="myfun()" type="button"><i class="fa-solid fa-ellipsis"></i></button>
-                                                    
-                                             </div>
+                                                    data-id="" onclick="myfun()" type="button"><i
+                                                        class="fa-solid fa-ellipsis"></i></button>
+
+                                            </div>
                                         </div>
                                         <h6>HTML Updated</h6>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa saepe sit
@@ -312,7 +314,8 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <button class="btn btn-xl btn-outline-success remove_employee mx-3 my-0"
-                                                    data-id="" id="demo" onclick="myFunction()" type="button"><i class="fa-solid fa-ellipsis "></i></button>                                
+                                                    data-id="" id="demo" onclick="myFunction()" type="button"><i
+                                                        class="fa-solid fa-ellipsis "></i></button>
                                             </div>
                                         </div>
                                         <h6>HTML Updated</h6>
@@ -327,9 +330,7 @@
                 </div>
             </div>
         </div>
-
     </div>
-
     <script>
         $(document).ready(function () {
             $("#myInput").on("keyup", function () {
@@ -350,9 +351,9 @@
     </script>
 
     <script>
-    function myFunction(x) {
-  x.classList.toggle(" fa-trash");
-}
+        function myFunction(x) {
+            x.classList.toggle(" fa-trash");
+        }
     </script>
 
     <script>
