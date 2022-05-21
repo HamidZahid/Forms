@@ -257,44 +257,72 @@
                         <input type="text" class="form-control" id="" value="" data-id="" placeholder="Text" />
                         <button class="btn btn-primary my-3 "> + Add Faq</button>
                     </div>
-                    <div class="tab-pane fade show  " id="Sub">
-                        <button class="btn btn-primary my-3"> Add Task</button>
+                    <div class="tab-pane fade show active " id="Sub">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <button class="btn btn-primary  my-3 float-right"> Add Task</button>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="card" style="width: 18rem;">
                                     <div class="card-body">
-                                        <h5 class="card-title text-primary">Today Task</h5>
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <h5 class="card-title text-primary">Today Task</h5>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <button class="btn btn-xl btn-outline-primary remove_employee mx-3 my-0"
+                                                    data-id="" onclick="myfun()" type="button"><i class="fa-solid fa-ellipsis"></i></button>
+                                            </div>
+                                        </div>
                                         <h6>Jquery Issues Fixed</h6>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa saepe sit
                                             consectetur quo.</p>
-                                            <i class="fa-solid fa-clock"></i> Dead Line 6:00Pm
+                                        <i class="fa-solid fa-clock"></i> Dead Line 6:00Pm
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="card" style="width: 18rem;">
                                     <div class="card-body">
-                                        <h5 class="card-title text-danger">Pending Task</h5>
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <h5 class="card-title text-danger">Pending Task</h5>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <button class="btn btn-xl btn-outline-danger remove_employee mx-3 my-0"
+                                                    data-id="" onclick="myfun()" type="button"><i class="fa-solid fa-ellipsis"></i></button>
+                                                    
+                                             </div>
+                                        </div>
                                         <h6>HTML Updated</h6>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa saepe sit
                                             consectetur quo.</p>
-                                            <i class="fa-solid fa-clock"></i> Dead Line 2:30Pm
+                                        <i class="fa-solid fa-clock"></i> Dead Line 2:30Pm
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="card" style="width: 18rem;">
                                     <div class="card-body">
-                                        <h5 class="card-title text-success">Completed Task</h5>
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <h5 class="card-title text-success">Completed Task</h5>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <button class="btn btn-xl btn-outline-success remove_employee mx-3 my-0"
+                                                    data-id="" id="demo" onclick="myFunction()" type="button"><i class="fa-solid fa-ellipsis "></i></button>                                
+                                            </div>
+                                        </div>
                                         <h6>HTML Updated</h6>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa saepe sit
                                             consectetur quo.</p>
-                                            <i class="fa-solid fa-clock"></i> Dec 02 2019
+                                        <i class="fa-solid fa-clock"></i> Dec 02 2019
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -319,7 +347,12 @@
                 });
             });
         });
+    </script>
 
+    <script>
+    function myFunction(x) {
+  x.classList.toggle(" fa-trash");
+}
     </script>
 
     <script>
