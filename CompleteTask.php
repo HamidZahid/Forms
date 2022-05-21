@@ -5,7 +5,7 @@
     <?php
          include('./includes/header/header.php');
     ?>
-    <title>Complete Task</title>
+    <title>Completed Task</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
                 <!-- Navbar -->
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="#">
-                        <h4>Complete Task</h4>
+                        <h4>Completed Task</h4>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -49,29 +49,61 @@
         </blockquote>
         <div class="container-fluid my-3">
             <div class="row">
-                <div class="col-md-2 text-center">
-                    <button type="button" class="btn btn-primary ">31</button>
-                    <h6>Total Working Days</h6>
+                <div class="col-md-3 text-center">
+                    <div class="card my-4" style="width: 15rem; border-radius: 15px;">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="mx-2 my-2"><b> Total Tasks</b></h5>
+                                <h5 class="text-danger"><b> 1254</b></h5>
+                            </div>
+                            <div class="col-md-6" >
+                                <button class="btn btn-xl btn-outline-danger remove_employee mx-1 my-4 " data-id=""
+                            type="button" ><i class="fa-solid fa-bag-shopping" ></i></button>          
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-2 text-center">
-                    <button type="button" class="btn btn-success ">24</button>
-                    <h6>Present Days</h6>
+                <div class="col-md-3 text-center">
+                    <div class="card my-4" style="width: 15rem; border-radius: 15px; background-color: white;">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="mx-2 my-2"><b> Total Tasks</b></h5>
+                                <h5 class="text-primary"><b>42</b></h5>
+                            </div>
+                            <div class="col-md-6" >
+                                <button class="btn btn-xl btn-outline-primary remove_employee mx-1 my-4 " data-id=""
+                            type="button" ><i class="fa-solid fa-clipboard"></i></button>          
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-2 text-center">
-                    <button type="button" class="btn btn-danger ">2</button>
-                    <h6>Absent Days</h6>
+                <div class="col-md-3 text-center">
+                    <div class="card my-4" style="width: 15rem; border-radius: 15px; background-color: white;">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="mx-2 my-2"><b> Total Tasks</b></h5>
+                                <h5 class="text-warning"><b>11</b></h5>
+                            </div>
+                            <div class="col-md-6" >
+                                <button class="btn btn-xl btn-outline-warning remove_employee mx-1 my-4 " data-id=""
+                            type="button" ><i class="fa-solid fa-circle-info"></i></button>          
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-2 text-center">
-                    <button type="button" class="btn btn-warning ">0</button>
-                    <h6>Half Days</h6>
-                </div>
-                <div class="col-md-2 text-center">
-                    <button type="button" class="btn btn-danger ">2</button>
-                    <h6>Late Days</h6>
-                </div>
-                <div class="col-md-2 text-center">
-                    <button type="button" class="btn btn-danger ">5</button>
-                    <h6>Holiday Days</h6>
+                <div class="col-md-3 text-center">
+                    <div class="card my-4" style="width: 15rem; border-radius: 15px; background-color: white;">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h5 class="mx-2 my-2"><b>Completed Tasks</b></h5>
+                                <h5 class="text-success"><b>38</b></h5>
+                            </div>
+                            <div class="col-md-4" >
+                                <button class="btn btn-xl btn-outline-success remove_employee mx-1 my-4 mr-4 " data-id=""
+                            type="button" ><i class="fa-solid fa-check"></i></button>          
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

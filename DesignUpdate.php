@@ -72,22 +72,22 @@
                             <h6 class="mx-3">Department</h6>
                             <h6 class="mx-3">Start Time</h6>
                             <h6 class="mx-3">Deadline </h6>
-                            <h6 class="mt-3 mx-3">Priority </h6>
-                            <h6 class="mt-3 mx-3">Wrok Status </h6>
+                            <h6 class=" mx-3">Priority </h6>
+                            <h6 class=" mx-3">Wrok Status </h6>
                         </div>
                         <div class="col-md-1 col-sm-1 col-xl-1">
                             <h6> :</h6>
                             <h6> :</h6>
                             <h6> :</h6>
-                            <h6 class="mt-3"> :</h6>
-                            <h6 class="mt-3"> :</h6>
+                            <h6 class=""> :</h6>
+                            <h6 class=""> :</h6>
                         </div>
                         <div class="col-md-4 col-sm-4 col-xl-4">
                             <h6>Designing</h6>
                             <h6>12-2-2021</h6>
                             <h6>16-6-2021</h6>
-                            <p class="text-danger">High</p>
-                            <p class="text-warning" style="margin-top: 0px;">On Hold</p>
+                            <h6 class="text-danger">High</h6>
+                            <h6 class="text-warning" style="margin-top: 0px;">On Hold</h6>
                         </div>
                     </div>
                     <div class="row">
