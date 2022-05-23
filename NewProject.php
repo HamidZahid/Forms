@@ -83,34 +83,16 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputEmail4">Client:</label>
-                <select class="form-control" id="" data-id="" value="">
-                    <option>Enter Client</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
+                <input type="text" class="form-control" id="" value="" data-id="" placeholder="Enter Client"/>
               </div>
               <div class="form-group col-md-6">
                 <label for="inputPassword4"> ($)Price :</label>
-                <select class="form-control" id="" data-id="" value="">
-                    <option>Select Employee </option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
+                <input type="text" class="form-control" id="" value="" data-id="" placeholder="Enter Price eg:$69.00"/>
               </div>
             </div>
             <div class="form-group">
               <label for="inputAddress">Assigned Team:</label>
-              <select class="form-control" id="" data-id="" value="">
-                <option>Select Employee </option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
+              <input type="text" class="form-control" id="" value="" data-id="" placeholder="Select Employee"/>
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
