@@ -49,94 +49,96 @@
         </blockquote>
         <form>
             <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputEmail4">Project ID</label>
-                <input type="text" class="form-control" id="" value="" data-id="" placeholder="Number"/>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputPassword4">Project Title</label>
-                <input type="text" class="form-control" id="" value="" data-id="" placeholder="Text"/>
-              </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Project ID</label>
+                    <input type="text" class="form-control" id="" value="" data-id="" placeholder="Number" />
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Project Title</label>
+                    <input type="text" class="form-control" id="" value="" data-id="" placeholder="Text" />
+                </div>
             </div>
             <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputEmail4">Department:</label>
-                <select class="form-control" id="" data-id="" value="">
-                    <option>Select Departmnet</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputPassword4"> Project Priority:</label>
-                <select class="form-control" id="" data-id="" value="">
-                    <option>Select Employee </option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
-              </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Department:</label>
+                    <select class="form-control" id="" data-id="" value="">
+                        <option>Select Departmnet</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4"> Project Priority:</label>
+                    <select class="form-control" id="" data-id="" value="">
+                        <option>Select Employee </option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
             </div>
             <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputEmail4">Client:</label>
-                <input type="text" class="form-control" id="" value="" data-id="" placeholder="Enter Client"/>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputPassword4"> ($)Price :</label>
-                <input type="text" class="form-control" id="" value="" data-id="" placeholder="Enter Price eg:$69.00"/>
-              </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Client:</label>
+                    <input type="text" class="form-control" id="" value="" data-id="" placeholder="Enter Client" />
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4"> ($)Price :</label>
+                    <input type="text" class="form-control" id="" value="" data-id=""
+                        placeholder="Enter Price eg:$69.00" />
+                </div>
             </div>
             <div class="form-group">
-              <label for="inputAddress">Assigned Team:</label>
-              <input type="text" class="form-control" id="" value="" data-id="" placeholder="Select Employee"/>
+                <label for="inputAddress">Assigned Team:</label>
+                <input type="text" class="form-control" id="" value="" data-id="" placeholder="Select Employee" />
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
-                  <label for="inputEmail4">Form:</label>
-                  <input type="date" class="form-control" id="" value="" data-id="" placeholder=""/>
+                    <label for="inputEmail4">Form:</label>
+                    <input type="date" class="form-control" id="" value="" data-id="" placeholder="" />
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="inputPassword4">To:</label>
-                  <input type="date" class="form-control" id="" value="" data-id="" placeholder=""/>
+                    <label for="inputPassword4">To:</label>
+                    <input type="date" class="form-control" id="" value="" data-id="" placeholder="" />
                 </div>
-              </div>
-              <div class="form-group">
+            </div>
+            <div class="form-group">
                 <label for="inputAddress">Upload Files:</label>
-                <input type="file" class="form-control" id="" value="" data-id="" placeholder="" style="border: none;"/>
-              </div>
-              <label for="inputAddress">Work Status:</label>
-              <div class="custom-control custom-radio custom-control-inline mx-3">
+                <input type="file" class="form-control" id="" value="" data-id="" placeholder=""
+                    style="border: none;" />
+            </div>
+            <label for="inputAddress">Work Status:</label>
+            <div class="custom-control custom-radio custom-control-inline mx-3">
                 <input type="radio" id="customRadioInline1" name="customRadioInline" class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline1">Active</label>
-              </div>
-              <div class="custom-control custom-radio custom-control-inline">
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" id="customRadioInline2" name="customRadioInline" class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline2">Completed</label>
-              </div>
-              <div class="custom-control custom-radio custom-control-inline">
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" id="customRadioInline3" name="customRadioInline" class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline3">On Going</label>
-              </div>
-              <div class="custom-control custom-radio custom-control-inline">
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" id="customRadioInline4" name="customRadioInline" class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline4">Pending </label>
-              </div>
-              <div class="custom-control custom-radio custom-control-inline">
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" id="customRadioInline5" name="customRadioInline" class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline5">Not Start </label>
-              </div>
-              <div class="custom-control custom-radio custom-control-inline">
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" id="customRadioInline6" name="customRadioInline" class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline6">Canceled </label>
-              </div>
-              <br>
-              <button class="btn btn-success mr-3 float-right">Submit</button>
-              <button class="btn btn-danger mr-2 float-right">Close</button>
-          </form>
+            </div>
+            <br>
+            <button class="btn btn-success mr-3 float-right">Submit</button>
+            <button class="btn btn-danger mr-2 float-right">Close</button>
+        </form>
     </div>
 
     <script>
