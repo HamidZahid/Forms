@@ -25,7 +25,8 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link text-light btn btn-primary btn-sm rounded mr-2" href="#">+ Create New Task </a>
+                                <a type="button" class="nav-link btn btn-primary mr-2" data-toggle="modal"
+                                    data-target="#exampleModal"><i class="fa fa-plus m-1"></i>Create New Task</a>
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link btn mr-2" href="#" style="background-color: #DEE5F7;"><i
@@ -47,60 +48,90 @@
                 <!-- Navbar -->
             </div>
         </blockquote>
-        <div class="container-fluid my-3">
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <div class="card my-4" style="width: 15rem; border-radius: 15px;">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h5 class="mx-2 my-2"><b> Total Tasks</b></h5>
-                                <h5 class="text-danger"><b> 1254</b></h5>
-                            </div>
-                            <div class="col-md-6" >
-                                <button class="btn btn-xl btn-outline-danger remove_employee mx-1 my-4 " data-id=""
-                            type="button" ><i class="fa-solid fa-bag-shopping" ></i></button>          
+        <!-- modal  -->
+        <!-- Button trigger modal -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="container-fluid">
+            <div class="projects">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-sm-12 ">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-xl-8 col-lg-8 col-sm-8">
+                                        <div class="h6 font-weight-bold" id="" data-id="">All Tasks</div>
+                                        <div class="h2 text-danger" id="" data-id="">1254</div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-sm-4" id="" data-id=""><a type="button" id=""
+                                            data-id="" class="btn btn-danger btn-lg"><i
+                                                class="fa-solid fa-suitcase"></i></a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="card my-4" style="width: 15rem; border-radius: 15px; background-color: white;">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h5 class="mx-2 my-2"><b> Total Tasks</b></h5>
-                                <h5 class="text-primary"><b>42</b></h5>
-                            </div>
-                            <div class="col-md-6" >
-                                <button class="btn btn-xl btn-outline-primary remove_employee mx-1 my-4 " data-id=""
-                            type="button" ><i class="fa-solid fa-clipboard"></i></button>          
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="card my-4" style="width: 15rem; border-radius: 15px; background-color: white;">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h5 class="mx-2 my-2"><b> Total Tasks</b></h5>
-                                <h5 class="text-warning"><b>11</b></h5>
-                            </div>
-                            <div class="col-md-6" >
-                                <button class="btn btn-xl btn-outline-warning remove_employee mx-1 my-4 " data-id=""
-                            type="button" ><i class="fa-solid fa-circle-info"></i></button>          
+                    <div class="col-xl-3 col-lg-6 col-sm-12 ">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-xl-8 col-lg-8 col-sm-8">
+                                        <div class="h6 font-weight-bold">My Tasks</div>
+                                        <div class="h2 text-primary" id="" data-id="">42</div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-sm-4" id="" data-id=""><a type="button" id=""
+                                            data-id="" class="btn btn-primary btn-lg"><i
+                                                class="fa-solid fa-suitcase"></i></a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="card my-4" style="width: 15rem; border-radius: 15px; background-color: white;">
-                        <div class="row">
-                            <div class="col-md-8">
-                                <h5 class="mx-2 my-2"><b>Completed Tasks</b></h5>
-                                <h5 class="text-success"><b>38</b></h5>
+                    <div class="col-xl-3 col-lg-6 col-sm-12 ">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-xl-8 col-lg-8 col-sm-8">
+                                        <div class="h6 font-weight-bold" id="" data-id="">Pending Tasks</div>
+                                        <div class="h2 text-success text-warning" id="" data-id="">11</div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-sm-4" id="" data-id=""><a type="button" id=""
+                                            data-id="" class="btn btn-warning btn-lg"><i
+                                                class="fa-solid fa-exclamation"></i></a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-4" >
-                                <button class="btn btn-xl btn-outline-success remove_employee mx-1 my-4 mr-4 " data-id=""
-                            type="button" ><i class="fa-solid fa-check"></i></button>          
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-sm-12 ">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-xl-8 col-lg-8 col-sm-8">
+                                        <div class="h6 font-weight-bold" id="" data-id="">Completed Tasks</div>
+                                        <div class="h2 text-info" id="" data-id="">38</div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-sm-4" id="" data-id=""><a type="button" id=""
+                                            data-id="" class="btn btn-info btn-lg"><i class="fa-solid fa-check"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -118,8 +149,8 @@
                 <div class="col-md-2  col-sm-2 col-xl-2">
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        
-                      </form>
+
+                    </form>
                 </div>
             </div>
             <hr>
@@ -130,7 +161,7 @@
                             <label for="overtime" class="col-xl-4 col-md-4 col-sm-4 form-label ">From :
                             </label>
                             <div class="col-xl-9 col-md-9 col-sm-9">
-                                <input type="date" class="form-control" id="date" value="" data-id=""/>
+                                <input type="date" class="form-control" id="date" value="" data-id="" />
                             </div>
                         </div>
                     </fieldset>
@@ -141,7 +172,7 @@
                             <label for="department" class="col-sm-6 col-md-6 form-label">To:</label>
 
                             <div class="col-md-10 col-sm-10 col-xl-10">
-                                <input type="date" class="form-control" id="date" value="" data-id=""/>
+                                <input type="date" class="form-control" id="date" value="" data-id="" />
                             </div>
                         </div>
                     </form>
@@ -247,7 +278,7 @@
                             </td>
                             <td>
                                 <img src="./assets/download.jpg" alt="Profile Pic"
-                                    style="width: 40px;height: 40px; border-radius: 50px;" /> <b> Victoria Layman  </b>
+                                    style="width: 40px;height: 40px; border-radius: 50px;" /> <b> Victoria Layman </b>
                             </td>
                             <td>
                                 <button class="btn btn-sm btn-danger remove_employee" data-id=""
@@ -283,7 +314,7 @@
                             </td>
                             <td>
                                 <img src="./assets/download.jpg" alt="Profile Pic"
-                                    style="width: 40px;height: 40px; border-radius: 50px;" /> <b> Melanie Colman   </b>
+                                    style="width: 40px;height: 40px; border-radius: 50px;" /> <b> Melanie Colman </b>
                             </td>
                             <td>
                                 <button class="btn btn-sm btn-success remove_employee" data-id=""
@@ -319,7 +350,7 @@
                             </td>
                             <td>
                                 <img src="./assets/download.jpg" alt="Profile Pic"
-                                    style="width: 40px;height: 40px; border-radius: 50px;" /> <b> Faith Harris    </b>
+                                    style="width: 40px;height: 40px; border-radius: 50px;" /> <b> Faith Harris </b>
                             </td>
                             <td>
                                 <button class="btn btn-sm btn-warning remove_employee" data-id=""

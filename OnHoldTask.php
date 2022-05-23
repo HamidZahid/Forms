@@ -47,66 +47,65 @@
                 <!-- Navbar -->
             </div>
         </blockquote>
-        <div class="container-fluid my-3">
+        <div class="container-fluid">
+                <div class="projects">
                     <div class="row">
-                        <div class="col-md-3 text-center">
-                            <div class="card my-4" style="width: 15rem; border-radius: 15px;">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h5 class="mx-2 my-2"><b> Total Tasks</b></h5>
-                                        <h5 class="text-danger"><b> 1254</b></h5>
-                                    </div>
-                                    <div class="col-md-6" >
-                                        <button class="btn btn-xl btn-outline-danger remove_employee mx-1 my-4 " data-id=""
-                                    type="button" ><i class="fa-solid fa-bag-shopping" ></i></button>          
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <div class="card my-4" style="width: 15rem; border-radius: 15px; background-color: white;">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h5 class="mx-2 my-2"><b> Total Tasks</b></h5>
-                                        <h5 class="text-primary"><b>42</b></h5>
-                                    </div>
-                                    <div class="col-md-6" >
-                                        <button class="btn btn-xl btn-outline-primary remove_employee mx-1 my-4 " data-id=""
-                                    type="button" ><i class="fa-solid fa-clipboard"></i></button>          
+                        <div class="col-xl-3 col-lg-6 col-sm-12 ">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-xl-8 col-lg-8 col-sm-8">
+                                            <div class="h6 font-weight-bold" id="" data-id="">All Tasks</div>
+                                            <div class="h2 text-danger" id="" data-id="">1254</div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-sm-4" id="" data-id=""><a type="button" id="" data-id="" class="btn btn-danger btn-lg"><i class="fa-solid fa-suitcase"></i></a></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 text-center">
-                            <div class="card my-4" style="width: 15rem; border-radius: 15px; background-color: white;">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h5 class="mx-2 my-2"><b> Total Tasks</b></h5>
-                                        <h5 class="text-warning"><b>11</b></h5>
-                                    </div>
-                                    <div class="col-md-6" >
-                                        <button class="btn btn-xl btn-outline-warning remove_employee mx-1 my-4 " data-id=""
-                                    type="button" ><i class="fa-solid fa-circle-info"></i></button>          
+                        <div class="col-xl-3 col-lg-6 col-sm-12 ">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-xl-8 col-lg-8 col-sm-8">
+                                            <div class="h6 font-weight-bold">My Tasks</div>
+                                            <div class="h2 text-primary" id="" data-id="">42</div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-sm-4" id="" data-id=""><a type="button" id="" data-id="" class="btn btn-primary btn-lg"><i class="fa-solid fa-suitcase"></i></a></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 text-center">
-                            <div class="card my-4" style="width: 15rem; border-radius: 15px; background-color: white;">
-                                <div class="row">
-                                    <div class="col-md-8">
-                                        <h5 class="mx-2 my-2"><b>Completed Tasks</b></h5>
-                                        <h5 class="text-success"><b>38</b></h5>
+                        <div class="col-xl-3 col-lg-6 col-sm-12 ">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-xl-8 col-lg-8 col-sm-8">
+                                            <div class="h6 font-weight-bold" id="" data-id="">Pending Tasks</div>
+                                            <div class="h2 text-success text-warning" id="" data-id="">11</div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-sm-4" id="" data-id=""><a type="button" id="" data-id="" class="btn btn-warning btn-lg"><i class="fa-solid fa-exclamation"></i></a>
+                                        </div>
                                     </div>
-                                    <div class="col-md-4" >
-                                        <button class="btn btn-xl btn-outline-success remove_employee mx-1 my-4 mr-4 " data-id=""
-                                    type="button" ><i class="fa-solid fa-check"></i></button>          
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-sm-12 ">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-xl-8 col-lg-8 col-sm-8">
+                                            <div class="h6 font-weight-bold" id="" data-id="">Completed Tasks</div>
+                                            <div class="h2 text-info" id="" data-id="">38</div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-sm-4" id="" data-id=""><a type="button" id="" data-id="" class="btn btn-info btn-lg"><i class="fa-solid fa-check"></i></a></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         <hr>
         <div class="container-fluid mx-2">
             <div class="row">

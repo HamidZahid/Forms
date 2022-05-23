@@ -50,61 +50,93 @@
         </blockquote>
         <div class="row">
             <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <div class="row my-3">
-                        <div class="col-md-7 col-sm-7 col-xl-7">
-                            <h6 class="my-1 mx-3" style="border-left: 5px solid rgb(104, 104, 234);">Assigned To</h6>
-                        </div>
-                        <div class="col-md-5 col-sm-5 col-xl-5">
-                            <p class="text-danger">Recurring</p>
-                        </div>
-                    </div>
-                    <div class="row align-self-center my-3">
-                        <div class="col-md-12 col-sm-12 col-xl-12 ">
-                            <img src="./assets/photo.jpg" alt="Profile Img"
-                                style="width: 100px; height: 100px; border-radius: 50px;" />
-                            <h5 class="my-2">Faith Harris</h5>
-                            <h6 class="my-2 ">Web Designer </h6>
-                        </div>
-                    </div>
-                    <div class="row ">
-                        <div class="col-md-6 col-sm-6 col-xl-6  ">
-                            <h6 class="mx-3">Department</h6>
-                            <h6 class="mx-3">Start Time</h6>
-                            <h6 class="mx-3">Deadline </h6>
-                            <h6 class=" mx-3">Priority </h6>
-                            <h6 class=" mx-3">Wrok Status </h6>
-                        </div>
-                        <div class="col-md-1 col-sm-1 col-xl-1">
-                            <h6> :</h6>
-                            <h6> :</h6>
-                            <h6> :</h6>
-                            <h6 class=""> :</h6>
-                            <h6 class=""> :</h6>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-xl-4">
-                            <h6>Designing</h6>
-                            <h6>12-2-2021</h6>
-                            <h6>16-6-2021</h6>
-                            <h6 class="text-danger">High</h6>
-                            <h6 class="text-warning" style="margin-top: 0px;">On Hold</h6>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8">
-                            <h6 class="mx-1">Project Status :</h6>
-                        </div>
-                        <div class="col-md-4">
-                            <h6 class="mx-1">30% </h6>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="progress mt-1 bg- " data-height="8" style="height: 8px;">
-                                <div class="progress-bar l-bg-cyan bg-success" role="progressbar" data-width="25%"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-7">
+                                <h5 class="card-title font-weight-bold" id="" data-id="">Assigned To</h5>
+                            </div>
+                            <div class="col-xl-4 col-lg-5">
+                                <input id="" data-id="" type="button" class="btn btn-danger btn-sm"
+                                    value="Recurring" />
                             </div>
                         </div>
+                        <div class="image text-center">
+                            <img id="" data-id="" src="./assets/photo.jpg" alt="100x100" srcset=""
+                                style="clip-path: circle();" class="w-25 z-depth-2 ">
+                        </div>
+                        <div class="card-text text-center">
+                            <p class="font-weight-bold" id="" data-id="">Faith Haris</p>
+                            <p class="text-muted" id="" data-id="">Web Developer</p>
+                            <div class="row mb-3">
+                                <div class="col-5">
+                                    <div class="h6 ">Department</div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="h6 font-weight-bold">:</div>
+                                </div>
+                                <div class="col-5">
+                                    <div class="h6 font-weight-bold" id="" data-id="">Designing</div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-5">
+                                    <div class="h6 ">Start Date</div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="h6 font-weight-bold">:</div>
+                                </div>
+                                <div class="col-5">
+                                    <div class="h6 font-weight-bold" id="" data-id="">12-02-2021</div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-5">
+                                    <div class="h6 ">Deadline</div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="h6 font-weight-bold">:</div>
+                                </div>
+                                <div class="col-5">
+                                    <div class="h6 font-weight-bold" id="" data-id="">20-02-2021</div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-5">
+                                    <div class="h6 ">Priority</div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="h6 font-weight-bold">:</div>
+                                </div>
+                                <div class="col-5">
+                                    <div class="h6 font-weight-bold text-light bg-danger rounded" id=""
+                                        data-id="">High</div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-5">
+                                    <div class="h6 ">Work Status</div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="h6 font-weight-bold">:</div>
+                                </div>
+                                <div class="col-5">
+                                    <div class="h6 font-weight-bold text-light bg-warning rounded " id=""
+                                        data-id="">On Hold</div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-12">
+                                    <h6 class="font-weight-bold">Project Status</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" id="" data-id="" name="" role="progressbar"
+                                            style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+                                            aria-valuemax="100">25%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -262,6 +294,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade show  " id="Sub">
+                        <div class="card">
                         <div class="row">
                             <div class="col-md-11">
                                 <button class="btn btn-primary  my-3 float-right"> Add Task</button>
@@ -330,6 +363,7 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
