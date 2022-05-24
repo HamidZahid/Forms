@@ -3,9 +3,6 @@
 
 <head>
     <?php require_once("./includes/header/header.php"); ?>
-    <link rel="stylesheet" href="page.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="theme.css">
     <title>Project Dashboard</title>
     <style>
         body {
@@ -720,9 +717,7 @@
     </div>
     <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="calendar.min.js"></script>
-    <!-- <script src="calendar.js"></script> -->
-    <script src="https://unpkg.com/codeflask/build/codeflask.min.js"></script>
+    
     <script type="text/javascript">
       var configg = `
 function selectDate(date) {
