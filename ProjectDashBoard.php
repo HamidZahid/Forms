@@ -8,6 +8,46 @@
         body {
             background-color: #EFF2FA;
         }
+        /* html {
+            font: 500 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #333;
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul,
+        ol,
+        li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #demo {
+            width: 400px;
+            margin: 30px auto;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        input {
+            margin: 10px 0;
+            height: 28px;
+            width: 200px;
+            padding: 0 6px;
+            border: 1px solid #ccc;
+            outline: none;
+        } */
 
         .circle {
             width: 100px;
@@ -640,25 +680,7 @@
         <div class="task_table">
             <div class="container-fluid">
                 <div class="row my-4">
-                    <!-- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                        <div class="card">
-                            <div class="row  p-3">
-                                <div class="col-xl-6">
-                                    <div class="heading">
-                                        <h5 class="font-weight-bold">Time Spent On Task</h6>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <a type="button" id="" data-id=""
-                                        class="btn w-40 float-right btn-sm btn-outline-secondary">View All <i
-                                            class="fa-solid fa-angle-down m-2"></i></a>
-                                </div>
-                            </div>
-                            <div>
-                                <canvas id="myChart2" height="250"></canvas>
-                            </div>
-                        </div>
-                    </div> -->
+                    
                     <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
                         <div class="card">
                             <div class="row p-3">
@@ -722,12 +744,22 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="card">
+                            <!-- <div id="demo">
+                                <div id="one"></div>
+                            </div> -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- <script src="https://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script> -->
+    <!-- <script src="src/calendar.js"></script> -->
+    
     <script>
         $(document).ready(function () {
             $('#myTable').DataTable();
@@ -802,8 +834,8 @@
         // doughnut chart 
         const doughnut = {
             labels: [
-                'Completed Task',
-                'Running Tasks'
+                'Female',
+                'Male'
             ],
             datasets: [{
                 label: 'My First Dataset',
@@ -861,7 +893,75 @@
             config3
         );
     </script>
+    <script>
+        var now = new Date();
+        var year = now.getFullYear();
+        var month = now.getMonth() + 1;
+        var date = now.getDate();
 
+
+        var dataa = [{
+            date: year + '-' + month + '-' + (date - 1),
+            value: 'hello'
+        }, {
+            date: year + '-' + month + '-' + date,
+            value: '上班'
+        }, {
+            date: new Date(year, month - 1, date + 1),
+            value: '吃饭睡觉打豆豆'
+        }, {
+            date: '2016-10-31',
+            value: '2016-10-31'
+        }];
+
+        // inline
+        var $ca = $('#one').calendar({
+            // view: 'month',
+            width: 320,
+            height: 320,
+            // startWeek: 0,
+            // selectedRang: [new Date(), null],
+            data: data,
+            monthArray: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            date: new Date(2016, 9, 31),
+            onSelected: function (view, date, data) {
+                console.log('view:' + view)
+                console.log('date:' + date)
+                console.log('data:' + (data || '无'));
+            },
+            viewChange: function (view, y, m) {
+                console.log(view, y, m)
+
+            }
+        });
+
+        // picker
+        $('#two').calendar({
+            trigger: '#dt',
+            // offset: [0, 1],
+            zIndex: 999,
+            data: data,
+            onSelected: function (view, date, data) {
+                console.log('event: onSelected')
+            },
+            onClose: function (view, date, data) {
+                console.log('event: onClose')
+                console.log('view:' + view)
+                console.log('date:' + date)
+                console.log('data:' + (data || '无'));
+            }
+        });
+
+        // Dynamic elements
+        var $demo = $('#demo');
+        var UID = 1;
+        $('#add').click(function () {
+            $demo.append('<input id="input-' + UID + '"><div id="ca-' + UID + '"></div>');
+            $('#ca-' + UID).calendar({
+                trigger: '#input-' + UID++
+            })
+        })
+    </script>
 </body>
 
 </html>
