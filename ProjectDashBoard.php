@@ -3,11 +3,15 @@
 
 <head>
     <?php require_once("./includes/header/header.php"); ?>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
     <title>Project Dashboard</title>
     <style>
         body {
             background-color: #EFF2FA;
         }
+
         .circle {
             width: 100px;
             /* margin: 6px 6px 20px; */
@@ -640,7 +644,7 @@
             <div class="container-fluid">
                 <div class="row my-4">
 
-                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12">
                         <div class="card">
                             <div class="row p-3">
                                 <div class="col-xl-8">
@@ -703,11 +707,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
                         <div class="card">
-                            <!-- <div id="demo">
-                                <div id="one"></div>
-                            </div> -->
+                            <main>
+                                <div class="calendar-wrapper" id="calendar-wrapper"></div>
+                            </main>
                         </div>
                     </div>
                 </div>
@@ -716,6 +720,41 @@
     </div>
     <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="calendar.min.js"></script>
+    <!-- <script src="calendar.js"></script> -->
+    <script src="https://unpkg.com/codeflask/build/codeflask.min.js"></script>
+    <script type="text/javascript">
+      var configg = `
+function selectDate(date) {
+  $('#calendar-wrapper').updateCalendarOptions({
+    date: date
+  });
+  console.log(calendar.getSelectedDate());
+}
+
+var defaultConfig = {
+  weekDayLength: 1,
+  date: '08/05/2021',
+  onClickDate: selectDate,
+  showYearDropdown: true,
+  startOnMonday: false,
+};
+
+var calendar = $('#calendar-wrapper').calendar(defaultConfig);
+console.log(calendar.getSelectedDate());
+`;
+      eval(configg);
+      const flask = new CodeFlask('#editor', { 
+        language: 'js', 
+        lineNumbers: true 
+      });
+      flask.updateCode(configg);
+      flask.onUpdate((code) => {
+        try {
+          eval(code);
+        } catch(e) {}
+      });
+    </script>
     <script>
         $(document).ready(function () {
             $('#myTable').DataTable();
@@ -848,6 +887,75 @@
             document.getElementById('myChart2'),
             config3
         );
+    </script>
+    <script>
+        var now = new Date();
+        var year = now.getFullYear();
+        var month = now.getMonth() + 1;
+        var date = now.getDate();
+
+
+        var dataa = [{
+            date: year + '-' + month + '-' + (date - 1),
+            value: 'hello'
+        }, {
+            date: year + '-' + month + '-' + date,
+            value: '上班'
+        }, {
+            date: new Date(year, month - 1, date + 1),
+            value: '吃饭睡觉打豆豆'
+        }, {
+            date: '2016-10-31',
+            value: '2016-10-31'
+        }];
+
+        // inline
+        var $ca = $('#one').calendar({
+            // view: 'month',
+            width: 320,
+            height: 320,
+            // startWeek: 0,
+            // selectedRang: [new Date(), null],
+            data: data,
+            monthArray: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            date: new Date(2016, 9, 31),
+            onSelected: function (view, date, data) {
+                console.log('view:' + view)
+                console.log('date:' + date)
+                console.log('data:' + (data || '无'));
+            },
+            viewChange: function (view, y, m) {
+                console.log(view, y, m)
+
+            }
+        });
+
+        // picker
+        $('#two').calendar({
+            trigger: '#dt',
+            // offset: [0, 1],
+            zIndex: 999,
+            data: data,
+            onSelected: function (view, date, data) {
+                console.log('event: onSelected')
+            },
+            onClose: function (view, date, data) {
+                console.log('event: onClose')
+                console.log('view:' + view)
+                console.log('date:' + date)
+                console.log('data:' + (data || '无'));
+            }
+        });
+
+        // Dynamic elements
+        var $demo = $('#demo');
+        var UID = 1;
+        $('#add').click(function () {
+            $demo.append('<input id="input-' + UID + '"><div id="ca-' + UID + '"></div>');
+            $('#ca-' + UID).calendar({
+                trigger: '#input-' + UID++
+            })
+        })
     </script>
 </body>
 

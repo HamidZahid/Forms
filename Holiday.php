@@ -5,6 +5,9 @@
     <?php
          include('./includes/header/header.php');
     ?>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
     <title>Attendance</title>
 </head>
 <body>
@@ -98,7 +101,7 @@
         <section class="p-2 bg-light rounded">
             <div class="container-fluid overflow-auto">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-9">
 
                         <table class="bg-light display" id="myTable" style="width:100%">
                             <thead>
@@ -183,13 +186,52 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-md-4 ">
-                        <!-- Space For Calendar -->
+                    <div class="col-md-3 ">
+                    <div class="card">
+                            <main>
+                                <div class="calendar-wrapper" id="calendar-wrapper"></div>
+                            </main>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </div>
+    <script src="calendar.min.js"></script>
+    <!-- <script src="calendar.js"></script> -->
+    <script src="https://unpkg.com/codeflask/build/codeflask.min.js"></script>
+    <script type="text/javascript">
+      var configg = `
+function selectDate(date) {
+  $('#calendar-wrapper').updateCalendarOptions({
+    date: date
+  });
+  console.log(calendar.getSelectedDate());
+}
+
+var defaultConfig = {
+  weekDayLength: 1,
+  date: '08/05/2021',
+  onClickDate: selectDate,
+  showYearDropdown: true,
+  startOnMonday: false,
+};
+
+var calendar = $('#calendar-wrapper').calendar(defaultConfig);
+console.log(calendar.getSelectedDate());
+`;
+      eval(configg);
+      const flask = new CodeFlask('#editor', { 
+        language: 'js', 
+        lineNumbers: true 
+      });
+      flask.updateCode(configg);
+      flask.onUpdate((code) => {
+        try {
+          eval(code);
+        } catch(e) {}
+      });
+    </script>
     <script>
         $(document).ready(function () {
             $("#myInput").on("keyup", function () {
